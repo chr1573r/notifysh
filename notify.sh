@@ -8,7 +8,7 @@
 
 trap "{ reset; clear; exit; }" SIGINT SIGTERM EXIT
 
-notifytxt="notify.sh.txt"
+notifytxt="~/container/persistent/notifysh/notify.txt"
 alternate=true
 
 function flasher {
